@@ -1,16 +1,58 @@
-# React + Vite
+# KnitNote
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Knitting progress tracker app  
+編み物の進捗や段ごとの作業内容を一画面で管理できるアプリ
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ■ 概要
 
-## React Compiler
+KnitNoteは、編み物の進行状況や段ごとの作業内容を管理するためのアプリです。  
+作業中に「今どこまで進んだか」「次に何をするか」をすぐに把握できるように設計しています。
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ■ 主な機能
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 段数管理（現在段 / 全体段）
+- 進捗率の表示
+- 段ごとのメモ管理
+- マーカー色の管理
+- 編み方パネルによる作業内容の可視化
+- localStorageによるデータ保存
+
+---
+
+## ■ 技術スタック
+
+- React（Vite）
+- Chakra UI
+- JavaScript
+
+---
+
+## ■ セットアップ
+
+npm install  
+npm run dev
+
+---
+
+## ■ 仕様
+
+詳細は以下を参照  
+docs/spec.md
+
+---
+
+## ■ 今後の予定
+
+- 糸ごとの進捗管理
+- 動画埋め込み機能
+- データのエクスポート / インポート
+
+---
+
+## ■ コンセプト
+
+作業中に必要な情報を一画面で確認できるようにし、編み物の中断・再開をスムーズにすることを目的としています。
